@@ -1,0 +1,65 @@
+/* body background color*/
+body{
+    background-color: whitesmoke;
+}
+/* flex box to display content in row*/
+.container{
+    display: flex;
+    justify-content: start;
+}
+/* About section styling*/
+.about{
+    padding-left: 200px;
+    width: 400px;
+    height: 250px;
+}
+/* details section styling*/
+.details{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    padding: 0px 30px;
+}
+.products{
+    padding-left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding-top:5px ;
+}
+.main{
+    padding-left: 30px;
+}
+/* register section styling*/
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+h2{
+    padding-top: 20px;
+}
+#button{
+    width:60px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid red;
+    color: red;
+    border-radius: 10px;
+}
+.hre{
+    padding:10px;
+}
+/*Social media links styling*/
+.container2{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
